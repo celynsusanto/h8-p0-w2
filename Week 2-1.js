@@ -26,7 +26,7 @@
 //2.2
 //IF "Tahun" is divisible by 4 and not divisible by 100
 //  DISPLAY "Kabisat"
-//IF "Year" is divisible by 4, 100, and 400
+//IF "Year" divisible by 4 is 0 && "Year" divisible by 100 is 0 && "Year" divisible by 400 is 0
 //  DISPLAY "Kabisat"
 //ELSE is "BukanKabisat"
 //END IF
@@ -36,13 +36,14 @@
 //1. Masukkan nilai Pakaian 0
 //2. Selama nilai Pakaian masih dibawah 20 tambah nilai Pakaian dengan 1
 //3. Ulangin step 2 sampai nilai Pakaian mencapai 20
-//4. Saat nilai pakaian mencapai 20, tampilkan Penuh 
+//4. Saat nilai pakaian mencapai 20, tampilkan "Penuh" 
 //5. Selesai
 
 //3.2
 //STORE "Pakaian" with 0
 //  WHILE "Pakaian"<20
-//  ADD  "Pakaian" by 1
+//    ADD  "Pakaian" by 1
+//  ENDW
 //DISPLAY "Penuh"
 
 
@@ -61,10 +62,10 @@
 //4.2
 //STORE "Murid" with 0
 //  WHILE "Murid"<40
-//  ADD "Murid" by 1
-//IF "Murid" punya "kuku panjang"
+//    ADD "Murid" by 1
+//    IF "Murid" punya "kuku panjang"
 //  DISPLAY "dihukum"
-//IF "Murid" punya "kuku pendek"
+//    IF "Murid" punya "kuku pendek"
 //  DISPLAY "dipuji"
 //END IF
 //DISPLAY "Murid"
