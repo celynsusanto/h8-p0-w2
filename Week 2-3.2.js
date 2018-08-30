@@ -60,6 +60,6 @@ for(counter=1; counter<=100; counter=counter+9){
   if(counter=counter+9){
     console.log(counter + ' Kelipatan ' + counter)
   }else{
-    console.log(counter + ' ')
+    console.log(counter + '')
   }
 }
