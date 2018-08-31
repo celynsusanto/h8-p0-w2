@@ -38,28 +38,25 @@ for(counter=1; counter<=100; counter++){
 }
 
 for(counter=1; counter<=100; counter=counter+2){
-  console.log(counter);
-  if(counter=counter+2){
-    console.log(counter + ' Kelipatan ' + counter);
+  if(counter%3==0){
+    console.log(counter + ' kelipatan' + 3);
   }else{
-    console.log(counter +'');
+    console.log("");
   }
 }
 
 for(counter=1; counter<=100; counter=counter+5){
-  console.log(counter);
-  if(counter=counter+5){
-    console.log(counter +' Kelipatan ' + counter);
+  if(counter%6==0){
+    console.log(counter +' Kelipatan ' + 6);
   }else{
-    console(counter + '')
+    console.log("")
   }
 }
 
 for(counter=1; counter<=100; counter=counter+9){
-  console.log(counter);
-  if(counter=counter+9){
-    console.log(counter + ' Kelipatan ' + counter)
+  if(counter%10==0){
+    console.log(counter + ' Kelipatan ' + 10)
   }else{
-    console.log(counter + '')
+    console.log("")
   }
 }
