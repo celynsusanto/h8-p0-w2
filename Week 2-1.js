@@ -51,7 +51,7 @@
 //4.1
 //1. Masukkan nila Murid sebanyak 0
 //2. Selama nilai Murid masih dibawah 40 tambah nilai Murid sebanyak 1
-//3. Ulangi step 2 sampe nilai murid mencapai 40
+//3. Ulangi step 2 sampai nilai murid mencapai 40
 //4. Tambahkan Kondisi 
 //5. Kondisi pertama jika Murid mempunyai kuku panjang tampilkan dihukum
 //6. Kondisi kedua jika Murid mempunyai kuku pendek tampilkan dipuji
