@@ -63,11 +63,12 @@
 //STORE "Murid" with 0
 //  WHILE "Murid"<40
 //    ADD "Murid" by 1
-//    IF "Murid" punya "kuku panjang"
-//  DISPLAY "dihukum"
-//    IF "Murid" punya "kuku pendek"
-//  DISPLAY "dipuji"
-//END IF
+//      IF "Murid" punya "kuku panjang"
+//        DISPLAY "dihukum"
+//      IF "Murid" punya "kuku pendek"
+//        DISPLAY "dipuji"
+//      END IF
+//  ENDW
 //DISPLAY "Murid"
 
 
