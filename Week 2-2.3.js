@@ -1,63 +1,65 @@
-var Hari= "6";
+var Hari = 6;
 //tanggal 1-31
-var Bulan= "9";
+var Bulan = 9;
 //bulan 1-12
-var Tahun= "1996";
-//tahun 1900-2200
+var Tahun = 1996;
+//tahun 1900-2200;
 
-switch (Hari) {
-  default:
-  console.log(Hari)
-  break;
+
+if (Hari > 31 || Hari < 1) {
+  Hari = " Invalid Date";
+} else if (Hari <= 31 && Hari >= 1) {
+  Hari = Hari;
+}
+if (Bulan <= 12) {
+  switch (Bulan) {
+    case 1:
+      Bulan = " Januari ";
+      break;
+    case 2:
+      Bulan = " Februari ";
+      break;
+    case 3:
+      Bulan = " Maret ";
+      break;
+    case 4:
+      Bulan = " April ";
+      break;
+    case 5:
+      Bulan = " Mei ";
+      break;
+    case 6:
+      Bulan = " Juni ";
+      break;
+    case 7:
+      Bulan = " Juli ";
+      break;
+    case 8:
+      Bulan = " Agustus ";
+      break;
+    case 9:
+      Bulan = " September ";
+      break;
+    case 10:
+      Bulan = " Oktober ";
+      break;
+    case 11:
+      Bulan = " November ";
+      break;
+    case 12:
+      Bulan = " Desember ";
+      break;
+  }
+} else if (Bulan > 12) {
+  Bulan = " Invalid Month "
+}
+if (Tahun >= 1900 && Tahun <= 2200) {
+  Tahun = Tahun
+} else if (Tahun < 1900 || Tahun > 2200) {
+  Tahun = " Invalid Year "
 }
 
-switch (Bulan) {
-  case "1":
-  console.log("Januari");
-  break;
-  case "2":
-  console.log("Februari");
-  break;
-  case "3":
-  console.log("Maret");
-  break;
-  case "4":
-  console.log("April");
-  break;
-  case "5":
-  console.log("Mei");
-  break;
-  case "6":
-  console.log("Juni");
-  break;
-  case "7":
-  cosnsole.log("Juli");
-  break;
-  case "8":
-  console.log("Agustus");
-  break;
-  case "9":
-  console.log("September");
-  break;
-  case "10":
-  console.log("Oktober");
-  break;
-  case "11":
-  console.log("November");
-  break;
-  case "12":
-  console.log("Desember");
-  break;
-  default:
-  console.log("Invalid");
-  break;
-}
-
-switch (Tahun) {
-  default:
-  console.log(Tahun)
-  break;
-}
+console.log(Hari + Bulan + Tahun)
 
 
 
