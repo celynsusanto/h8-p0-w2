@@ -44,7 +44,7 @@
 //  WHILE "Pakaian"<20
 //    ADD  "Pakaian" by 1
 //  ENDW
-//DISPLAY "Penuh"
+//DISPLAY "Pakaian"
 
 
 
