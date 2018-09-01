@@ -41,9 +41,10 @@
 
 //3.2
 //STORE "Pakaian" with 0
-//  WHILE "Pakaian"<20
-//    ADD  "Pakaian" by 1
-//  ENDW
+//
+//WHILE "Pakaian"<20
+//  ADD  "Pakaian" by 1
+//ENDW
 //DISPLAY "Pakaian"
 
 
@@ -61,15 +62,15 @@
 
 //4.2
 //STORE "Murid" with 0
-//  WHILE "Murid"<40
-//    ADD "Murid" by 1
-//      IF "Murid" punya "kuku panjang"
-//        DISPLAY "dihukum"
-//      IF "Murid" punya "kuku pendek"
-//        DISPLAY "dipuji"
-//      END IF
-//  ENDW
-//DISPLAY "Murid"
+//
+//WHILE "Murid"<40
+//  ADD "Murid" by 1
+//  IF "Murid" punya "kuku panjang"
+//    DISPLAY "dihukum"
+//  IF "Murid" punya "kuku pendek"
+//    DISPLAY "dipuji"
+//  END IF
+//ENDW
 
 
 
