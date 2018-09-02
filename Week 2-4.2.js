@@ -2,7 +2,7 @@
 function shoutOut(text){
   return(text);
 }
-console.log("Hello Function")
+console.log(shoutOut("Hello Function"))
 
 //2.
 // function calculateMultiply(num1, num2){
