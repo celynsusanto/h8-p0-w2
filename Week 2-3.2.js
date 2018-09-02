@@ -1,16 +1,16 @@
 //1.
 //LOOPING PERTAMA
-var nomor = 2
+var nomor = 0
 var kalimat = ' - I Love Coding'
-while (nomor <= 20) {
-  console.log(nomor + kalimat)
+while (nomor < 20) {
   nomor = nomor + 2
+  console.log(nomor + kalimat)
 }
 
 //LOOPING KEDUA
 var nomor1 = 20
 var kalimat1 = ' - I will become fullstack developer'
-while (nomor1 >= 2) {
+while (nomor1 > 0) {
   console.log(nomor1 + kalimat1)
   nomor1 = nomor1 - 2
 }
