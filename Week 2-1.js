@@ -20,7 +20,7 @@
 //1.Jika Tahun habis dibagi 4 dan tidak habis di bagi 100 maka tampilkan "Kabisat"
 //2.ATAU
 //3.Jika Tahun habis dibagi 4, habis dibagi 100 dan habis dibagi 400 maka maka tampilkan "Kabisat"
-//4.Jika tidak memenuhi 2 kondisi diatas maka tampilkan "BukanKabisat"
+//4.Jika tidak memenuhi 2 kondisi diatas maka tampilkan "Bukan Kabisat"
 //5.Selesai
 
 //2.2
@@ -28,7 +28,8 @@
 //  DISPLAY "Kabisat"
 //IF "Year" divisible by 4 is 0 && "Year" divisible by 100 is 0 && "Year" divisible by 400 is 0
 //  DISPLAY "Kabisat"
-//ELSE is "BukanKabisat"
+//ELSE 
+//  DISPLAY "Bukan Kabisat"
 //END IF
 
 
